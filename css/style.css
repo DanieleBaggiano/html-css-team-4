@@ -1,0 +1,14 @@
+.fire_right {
+    left: 75%;
+    top: 55%;
+}
+
+.fire_left {
+    right: 75%;
+    top: 55%;
+}
+
+.testo {
+    width: 80%;
+    height: 100%;
+}

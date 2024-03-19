@@ -24,28 +24,43 @@
 
 <body>
     <!-- header -->
-    <header>
-        <div class="container">
-            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-                <a href="/"
-                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32">
-                        <use xlink:href="#bootstrap"></use>
-                    </svg>
-                    <span class="fs-4">Team 4</span>
-                </a>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom border-danger">
+            <a href="#"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-4 text-danger">
+                    <i class="bi bi-fire"></i>
+                    Team 4
+                    <i class="bi bi-fire"></i>
+                </span>
+            </a>
 
-                <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="index1.html" class="nav-link active" aria-current="page">Panoramica flip
-                            card</a></li>
-                    <li class="nav-item"><a href="index2.html" class="nav-link">Proprietà flip card</a></li>
-                    <li class="nav-item"><a href="index3.html" class="nav-link">Flip card dashboard</a></li>
-                    <li class="nav-item"><a href="index4.html" class="nav-link">Live coding</a></li>
-                </ul>
-            </header>
-        </div>
-    </header>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index1.html" class="nav-link active bg-danger"
+                        aria-current="page">Panoramica flip
+                        card</a></li>
+                <li class="nav-item"><a href="index2.html" class="nav-link text-danger">Proprietà flip card</a></li>
+                <li class="nav-item"><a href="index3.html" class="nav-link text-danger">Flip card dashboard</a></li>
+                <li class="nav-item"><a href="index4.html" class="nav-link text-danger">Live coding</a></li>
+            </ul>
+        </header>
+    </div>
     <!-- /header -->
+
+    <!-- main -->
+    <main>
+        <div class="vh-100">
+            <img class="position-fixed fire_left" src="./fire-element-illustration_23-2150396724.avif" alt="fire">
+            <div class="border border-danger rounded testo mx-auto">
+
+            </div>
+            <img class="position-fixed fire_right" src="./fire-element-illustration_23-2150396724.avif" alt="fire">
+        </div>
+    </main>
+    <!-- /main -->
 
     <!-- bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
